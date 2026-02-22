@@ -1,0 +1,13 @@
+apiVersion: v2
+name: "poc-injection"
+description: "A Chart for PoC"
+type: application
+# Injection payload in the version field
+version: '0.1.0"; <html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx/1.22.1</center>
+</body>
+</html>; #'
+appVersion: "1.0.0"
